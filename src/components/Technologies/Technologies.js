@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef  } from 'react';
 import { DiFirebase, DiReact, DiBootstrap , DiPython, DiNodejsSmall, DiMongodb} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, ChangingText } from './TechnologiesStyles';
@@ -7,9 +7,10 @@ import { init } from 'ityped'
 
 export default function Technologies() {
 
+  const typing_text = useRef();
+
   useEffect(() => {
-    const myElement = document.querySelector('#changingtxt')
-      init(myElement, { showCursor: false, strings: ['React.js!', 'Next.js!',
+      init(typing_text.current, { showCursor: false, strings: ['React.js!', 'Next.js!',
       'FastApi!',
       'MongoDB!',
       'and much more!'
@@ -20,7 +21,7 @@ export default function Technologies() {
     <Section id="tech">
       <SectionDivider />
       <SectionTitle>Technologies</SectionTitle>
-      <SectionText>I am a Full Stack Web Dev, I am Experienced in<ChangingText id="changingtxt"> Exp</ChangingText></SectionText>
+      <SectionText>I am a Full Stack Web Dev, I am Experienced in<ChangingText ref={typing_text}> Exp</ChangingText></SectionText>
       <List>
         <ListItem>
           <DiFirebase size="3rem" />

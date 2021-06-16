@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 
 
 const BackgroundAnimation = () => (
-  <div>
+  <>
     <Particles
       params={{
         "particles": {
@@ -33,7 +33,7 @@ const BackgroundAnimation = () => (
           },
         }
       }} />
-  </div>
+  </>
 );
 
 export default BackgroundAnimation;
