@@ -1,0 +1,51 @@
+export const projects = [
+  {
+    title: 'Librathios',
+    description: "A library Automation App specially hand crafted for a local library.First collab with a professional web dev. Closed Source Contace for demo",
+      image: '/images/1.png',
+      tags: ['Mongo', 'FastApi', 'React', 'Node','Regex'],
+    source: 'https://github.com/Ali-TM-original/full-stack-library-app',
+    visit: 'https://google.com',
+    id: 0,
+  },
+  {
+    title: 'Firebase Chatapp',
+    description:"A Simple Crud based Web Chatapp built using react and Material UI",
+    image: '/images/2.png',
+    tags: ['React', 'Firebase', 'FireStore', 'Material UI'],
+    source: 'https://github.com/Ali-TM-original/react-simple-chatroom',
+    visit: 'https://google.com',
+    id: 1,
+  },
+  {
+    title: 'Sakura Chan',
+    description: "A discord bot build using discord.py. one of my first ever project to reach a big scale but ultimately brought down by exams",
+      image: '/images/3.jpg',
+      tags: ['Python', 'Discord.py', 'FFMPEG', 'TTS'],
+    source: 'https://github.com/Ali-TM-original/Sakura-Chan',
+    visit: 'https://google.com',
+    id: 2,
+  },
+  {
+    title: 'Asyncdagreq',
+    description: "Asynchronous Dagpi.xyz api wrapper build with python",
+    image: '/images/4.jpg',
+    tags: ['React', 'ChatEngine', 'Firebase'],
+    source: 'https://github.com/Ali-TM-original/asyncdagreq',
+    visit: 'https://google.com',
+    id: 3,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2017, month:0, text: 'Wrote my first Html site in school and Forgot ', },
+  { year: 2017, month:0, text: 'The great age of Absence', },
+  { year: 2020, month:8, text: 'Got introduced to python', },
+  { year: 2020, month:9, text: 'Introduced to discord.py and Databases', },
+  { year: 2020, month:10, text: 'Worked on discord bots', },
+  { year: 2021, month:3, text: 'Introduced to Web Dev through Python Frameworks', },
+  { year: 2021, month:5, text: 'Introduced to Web Dev, JS and React', },
+  { year: 2021, month:5, text: 'Age of random react projects', },
+  { year: 2021, month:6, text: 'Built an Awesome Api and a web app for local Library', },
+  { year: 2021, month:6, text: 'Currently Building a Discord bot Dashboard', },
+];
