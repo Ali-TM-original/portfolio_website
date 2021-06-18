@@ -14,7 +14,7 @@ const Home = () => {
       <Head>
         <title>Ali's Rave</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <script async src="https://arc.io/widget.min.js#qhqbFtct"></script>
+        <script async type="text/javascript" src="../static/arcfile.js"></script>
       </Head>
 
       <Section grid>
