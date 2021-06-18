@@ -3,7 +3,7 @@ import React from 'react';
 import { AiFillGithub} from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 import { IoLogoDiscord} from "react-icons/io5";
-
+import { VscCode } from "react-icons/vsc";
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () => (
@@ -38,6 +38,9 @@ const Header = () => (
     <Div3>
       <SocialIcons href="https://github.com/Ali-TM-original">
         <AiFillGithub size="3rem"/>
+      </SocialIcons>
+      <SocialIcons href="https://github.com/Ali-TM-original/portfolio_website/tree/master">
+        <VscCode  size="3rem"/>
       </SocialIcons>
       <SocialIcons href="https://discord.com/users/410452466631442443">
         <IoLogoDiscord size="3rem"/>
