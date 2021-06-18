@@ -21,13 +21,13 @@ const Footer = () => {
           </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://github.com/Ali-TM-original">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://github.com/Ali-TM-original/portfolio_website/tree/master">
             <VscCode  size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://discord.com/users/410452466631442443">
             <IoLogoDiscord size="3rem" />
           </SocialIcons>
         </SocialContainer>
