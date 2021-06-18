@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillGithub} from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
-import { IoLogoDiscord, IoLogoFacebook } from "react-icons/io5";
+
+import { IoLogoDiscord} from "react-icons/io5";
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -24,9 +24,6 @@ const Footer = () => {
         <SocialContainer>
           <SocialIcons href="https://github.com">
             <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com">
-            <IoLogoFacebook size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://github.com">
             <IoLogoDiscord size="3rem" />

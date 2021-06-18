@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Librathios',
     description: "A library Automation App specially hand crafted for a local library.First collab with a professional web dev. Closed Source Contace for demo",
-      image: '/images/1.png',
+      image: '/images/1.jpg',
       tags: ['Mongo', 'FastApi', 'React', 'Node','Regex'],
     source: 'https://github.com/Ali-TM-original/full-stack-library-app',
     visit: 'https://google.com',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Firebase Chatapp',
     description:"A Simple Crud based Web Chatapp built using react and Material UI",
-    image: '/images/2.png',
+    image: '/images/2.jpg',
     tags: ['React', 'Firebase', 'FireStore', 'Material UI'],
     source: 'https://github.com/Ali-TM-original/react-simple-chatroom',
     visit: 'https://google.com',
